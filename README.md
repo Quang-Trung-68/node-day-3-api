@@ -19,8 +19,8 @@ This is a standardized Express.js API project with MySQL integration, including 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
-    cd <project-folder>
+    git clone https://github.com/Quang-Trung-68/node-day-3-api.git
+    cd node-day-3-api
     ```
 
 2.  **Install dependencies:**
