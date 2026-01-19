@@ -44,7 +44,7 @@ async function update(req, res) {
     if (affectedRows === 0) {
       return res.error(404, "Task not found");
     }
-    return res.success("Update success", 204);
+    return res.success("Update success", 200);
   } catch (error) {
     console.log(error);
     res.error(500, "Database error");
@@ -58,7 +58,7 @@ async function destroy(req, res) {
     if (affectedRows === 0) {
       return res.error(404, "Task not found");
     }
-    return res.success("Delete success", 204);
+    return res.success("Delete success", 200);
   } catch (error) {
     console.log(error);
     res.error(500, "Database error");
